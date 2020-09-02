@@ -1,14 +1,13 @@
 body{
     margin: 0px; 
     background-color: #525ba2;
-    
+    width:100%;
     overflow-x: hidden;
 }
 
-
 .surface{
     height: 120px;
-    width: 900%;
+    width: 1000%;
     background: url(images/Img_02.png);
     display: block;
     position: absolute;
@@ -25,9 +24,21 @@ body{
     animation: suspention 1s linear infinite;
 }
 
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Animation */
 @keyframes moveRight{
-    100%{transform:translateX(-2950px)};
+    100%{transform:translateX(-5000px)};
 }
 
 @keyframes suspention{
@@ -50,6 +61,7 @@ body{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
 .navbar-light .navbar-brand{
@@ -58,8 +70,20 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    
 }
 
 .navbar-nav {
     text-align: center;
+    border-color: white;
+}
+
+.custom-toggler{
+    background-color: white;
+    border-color: transparent;
+    border-width: 4px;
+}
+
+.bg-dark {
+    background-color: #8396a9!important;
 }
