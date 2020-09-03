@@ -38,7 +38,7 @@ body{
 
 /* Animation */
 @keyframes moveRight{
-    100%{transform:translateX(-5000px)};
+    100%{transform:translateX(-4000px)};
 }
 
 @keyframes suspention{
@@ -67,7 +67,7 @@ body{
 .navbar-light .navbar-brand{
     color: #fff;
     font-size: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: bold;
     letter-spacing: 2px;
     
@@ -86,4 +86,8 @@ body{
 
 .bg-dark {
     background-color: #8396a9!important;
+}
+
+.row{
+    margin-top: 100px;
 }
