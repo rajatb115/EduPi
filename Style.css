@@ -1,6 +1,6 @@
 body{
     margin: 0px; 
-    background-color: #a3d2ca;
+    background-color: #e8ded2;
     width:100%;
     overflow-x: hidden;
 }
@@ -48,6 +48,23 @@ body{
     background-color: #5eaaa8!important;
 }
 
-.row{
+.div-main{
     margin-top: 100px;
+    background-color: #a3d2ca
+}
+
+.fas-style {
+    font-size: 70px;
+    color: #056676;
+}
+
+.div-icon{
+    text-align: center;
+}
+
+.vl{
+    border-left: 4px solid #056676;
+    height: 50px;
+    position: relative;
+    left: 50%;
 }
