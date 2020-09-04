@@ -1,27 +1,8 @@
 body{
     margin: 0px; 
-    background-color: #525ba2;
+    background-color: #a3d2ca;
     width:100%;
     overflow-x: hidden;
-}
-
-.surface{
-    height: 120px;
-    width: 1000%;
-    background: url(images/Img_02.png);
-    display: block;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    background-repeat: repeat-x;
-    animation: moveRight 6s linear infinite;
-}
-
-.car{
-    position: absolute;
-    bottom: 28px;
-    left: 25%;
-    animation: suspention 1s linear infinite;
 }
 
 .column {
@@ -29,32 +10,11 @@ body{
   width: 25%;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* Animation */
-@keyframes moveRight{
-    100%{transform:translateX(-4000px)};
-}
-
-@keyframes suspention{
-    100%{
-        transform: translateY(-1px);
-    }
-    50%{
-        transform: translateY(2px);
-    }
-    0%{
-        transform: translateY(-1px);
-    }
-    
-}
-
-/* -- end -- */
 
 .navbar-nav a{
     font-family: poppins;
@@ -85,7 +45,7 @@ body{
 }
 
 .bg-dark {
-    background-color: #8396a9!important;
+    background-color: #5eaaa8!important;
 }
 
 .row{
