@@ -70,4 +70,5 @@ body{
 }
 .particle-style{
     position: absolute;
+    height: 100%;
 }
