@@ -1,8 +1,6 @@
 body{
     margin: 0px; 
     background-color: #e8ded2;
-    width:100%;
-    overflow-x: hidden;
 }
 
 .column {
@@ -55,6 +53,7 @@ body{
 
 .fas-style {
     font-size: 70px;
+    padding-bottom: 3px;
     color: #056676;
 }
 
@@ -64,12 +63,28 @@ body{
 
 .vl{
     border-left: 4px solid #056676;
-    height: 50px;
+    height: 30px;
     position: relative;
     left: 50%;
+    margin: 0px;
 }
 .particle-style{
     position: absolute;
     height: 100%;
     width: 100%;
+}
+
+.hr-style{
+    height: 3px;
+    background: #056676;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.div-style-1{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
