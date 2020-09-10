@@ -88,3 +88,17 @@ body{
     padding-left: 0px;
     padding-bottom: 0px;
 }
+.responsive-text{
+    text-align: center;
+}
+@media screen and (min-width: 801px) {
+   .responsive-text{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+   .responsive-text{
+    font-size: 20px;
+  }
+}
