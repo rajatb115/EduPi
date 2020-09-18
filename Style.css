@@ -73,11 +73,7 @@ body{
     left: 50%;
     margin: 0px;
 }
-.particle-style{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
+
 
 .hr-style{
     
@@ -113,14 +109,33 @@ body{
    .responsive-text{
     font-size: 25px;
   }
+    .particle-style{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
 }
 
 @media screen and (max-width: 800px) {
    .responsive-text{
     font-size: 20px;
   }
+    .particle-style{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
 }
-
+}
+@media screen and (max-width: 600px) {
+    .responsive-text{
+    font-size: 20px;
+  }
+    .particle-style{
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+}
+}
 .Justify{
     text-align:justify;
     /*color: #056676;*/
