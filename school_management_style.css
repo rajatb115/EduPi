@@ -1,0 +1,58 @@
+/* default style css code */
+
+body{
+    margin: 0px; 
+    background-color: #e8ded2;
+}
+
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-align: center;
+    border-color: white;
+}
+.navbar{
+    background-color: #5eaaa8;
+}
+.custom-toggler{
+    background-color: white;
+    border-color: transparent;
+    border-width: 4px;
+}
+
+.bg-dark {
+    background-color: #5eaaa8!important;
+}
+
+.div-main{
+    margin-top: 100px;
+    background-color: #a3d2ca;
+}
+
+/* End default style code */
+
+
+/*  style code for this pgae */
+
+.div-box-style{
+    border-radius: 25px;
+    border: 2px solid #056676;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* End style code */
