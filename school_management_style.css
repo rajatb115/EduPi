@@ -59,6 +59,8 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+.hcenter{
+    text-align: center;
+}
 
 /* End style code */
